@@ -84,14 +84,14 @@ export default function Kartopelka() {
               name="name"
               value={order.name}
               onChange={handleChange}
-              placeholder="Ваше ім'я"
+              placeholder="Ваше імя"
               required
             />
             <Input
               name="phone"
               value={order.phone}
               onChange={handleChange}
-              placeholder="Телефон для зв'язку"
+              placeholder="Телефон для звязку"
               required
             />
 

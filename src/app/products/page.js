@@ -6,7 +6,7 @@ import Link from "next/link";
 const products = [
   { id: 1, name: "Картопля", price: 20, image: "/potato.jpg" },
   { id: 2, name: "Морква (що вона тут робить?)", price: 150, image: "/carrot.jpg" },
-  { id: 3, name: "Цибуля? Ще й за таку ціну?!", price: 200, image: "/onion.jpg" },
+  { id: 3, name: "Цибуля? Ще й за таку ціну?", price: 200, image: "/onion.jpg" },
 ];
 
 // Навігаційне меню
