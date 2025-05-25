@@ -96,7 +96,7 @@ export default function Kartopelka() {
             />
 
             <Button type="submit" className="bg-yellow-500 hover:bg-yellow-600 text-white">
-              Зв&#39яжіться зі мною
+              Звяжіться зі мною
             </Button>
           </form>
         </CardContent>
