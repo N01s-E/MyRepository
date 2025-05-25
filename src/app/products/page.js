@@ -154,14 +154,14 @@ export default function ProductsPage() {
 
         {orderPlaced && (
           <p className="mb-4 text-green-600 font-semibold">
-            Дякуємо за замовлення! Ми зв&aposяжемося з вами найближчим часом.
+            Дякуємо за замовлення! Ми зв&#39яжемося з вами найближчим часом.
           </p>
         )}
 
         <form onSubmit={handleSubmit} className="max-w-md space-y-4">
           <div>
             <label className="block mb-1 font-semibold" htmlFor="name">
-              Ім&aposя
+              Ім&#39я
             </label>
             <input
               id="name"
