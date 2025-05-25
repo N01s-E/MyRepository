@@ -78,7 +78,7 @@ export default function Kartopelka() {
 
       <Card className="max-w-xl mx-auto">
         <CardContent className="p-6">
-          <h2 className="text-xl font-bold mb-4">Замовити картопельку</h2>
+          <h2 className="text-xl font-bold mb-4">Замовити картопельку!</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <Input
               name="name"

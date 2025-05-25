@@ -116,7 +116,7 @@ export default function ProductsPage() {
         <h2 className="text-xl font-bold mb-2">
           Кошик ({cart.reduce((acc, item) => acc + item.qty, 0)} товарів)
         </h2>
-        {cart.length === 0 && <p>Кошик порожній</p>}
+        {cart.length === 0 && <p>Кошик порожній!</p>}
         {cart.map((item) => (
           <div key={item.id} className="flex justify-between items-center mb-2">
             <span>
