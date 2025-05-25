@@ -33,8 +33,8 @@ export default function Kartopelka() {
     setOrder({ name: "", phone: "", type: "", quantity: 1 });
   };
 
-  const foodVarieties = ["Беллароза", "Ред Скарлет", "Гранада", "Слов’янка", "Лаура"];
-  const seedVarieties = ["Гала", "Рів’єра", "Журавинка", "Арізона", "Тірас"];
+  const foodVarieties = ["Беллароза", "Ред Скарлет", "Гранада", "Словянка", "Лаура"];
+  const seedVarieties = ["Гала", "Рівєра", "Журавинка", "Арізона", "Тірас"];
 
   return (
     <div className="min-h-screen bg-white text-green-900 p-6">
@@ -84,19 +84,19 @@ export default function Kartopelka() {
               name="name"
               value={order.name}
               onChange={handleChange}
-              placeholder="Ваше ім’я"
+              placeholder="Ваше ім'я"
               required
             />
             <Input
               name="phone"
               value={order.phone}
               onChange={handleChange}
-              placeholder="Телефон для зв’язку"
+              placeholder="Телефон для зв'язку"
               required
             />
 
             <Button type="submit" className="bg-yellow-500 hover:bg-yellow-600 text-white">
-              Зв'яжіться зі мною
+              Зв&aposяжіться зі мною
             </Button>
           </form>
         </CardContent>
