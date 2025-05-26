@@ -144,8 +144,8 @@ function CartModal({ cartItems, onClose, updateQuantity, removeFromCart }) {
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-      <div className="bg-white rounded-lg p-6 max-w-md w-full shadow-lg relative">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 px-4">
+      <div className="bg-white rounded-lg p-6 max-w-md w-full shadow-lg relative max-h-[90vh] overflow-auto">
         <button
           onClick={onClose}
           className="absolute top-3 right-3 text-gray-600 hover:text-gray-900"
@@ -263,17 +263,20 @@ export default function Kartopelka() {
         </button>
 
         <h1 className="text-4xl font-bold text-center mb-4 text-yellow-600">
-          <Link href="/" className="no-underline text-yellow-600 hover:text-yellow-700">
+          <Link
+            href="/"
+            className="no-underline text-yellow-600 hover:text-yellow-700"
+          >
             Картопелька від Оксани 🥔
           </Link>
         </h1>
         <p className="text-center mb-10">Привіт з грядки! Доставка по Києву: 0XX XXX XX XX</p>
 
-        <div className="grid grid-cols-2 gap-16 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-16 w-full max-w-5xl mx-auto">
           <div className="flex flex-col items-center">
             <button
               onClick={() => setExpandedEating(!expandedEating)}
-              className="w-96 bg-green-200 hover:bg-green-300 text-2xl font-semibold hover:font-bold py-6 rounded shadow mb-2"
+              className="w-full max-w-md bg-green-200 hover:bg-green-300 text-2xl font-semibold hover:font-bold py-6 rounded shadow mb-2"
             >
               Картопля для поїдання 🍽️
             </button>
@@ -299,7 +302,7 @@ export default function Kartopelka() {
           <div className="flex flex-col items-center">
             <button
               onClick={() => setExpandedPlanting(!expandedPlanting)}
-              className="w-96 bg-green-200 hover:bg-green-300 text-2xl font-semibold hover:font-bold py-6 rounded shadow mb-2"
+              className="w-full max-w-md bg-green-200 hover:bg-green-300 text-2xl font-semibold hover:font-bold py-6 rounded shadow mb-2"
             >
               Картопля на посів 🌱
             </button>
