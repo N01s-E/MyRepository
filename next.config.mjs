@@ -1,11 +1,9 @@
+// next.config.mjs
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
-
-// next.config.js
-module.exports = {
+const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true, // якщо хочеш ігнорити під час білду повністю
+    ignoreDuringBuilds: true,
   },
 };
+
+export default nextConfig;
