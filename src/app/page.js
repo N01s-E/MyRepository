@@ -267,7 +267,7 @@ export default function Kartopelka() {
             Картопелька від Оксани 🥔
           </Link>
         </h1>
-        <p className="text-center mb-10">Привіт з грядки! Доставка по Києву: 068 731 01 20</p>
+        <p className="text-center mb-10">Привіт з грядки! Доставка по Києву: 0XX XXX XX XX</p>
 
         <div className="grid grid-cols-2 gap-16 w-full">
           <div className="flex flex-col items-center">
